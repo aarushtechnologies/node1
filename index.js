@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Codingwale vaijapur - Aarush Technologies - Aarush Kabir')
+  res.send('<h1>Online Batch - Node js CICD</h1>')
 })
 
 app.listen(port,'0.0.0.0', () => {
