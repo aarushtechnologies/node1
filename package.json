@@ -1,6 +1,9 @@
 {
   "name": "node1",
   "version": "1.0.0",
+   "publishConfig": {
+    "registry": "http://10.0.2.15:8081/repository/node-online/"
+  },
   "description": "This is First Node js Project On jenkins",
   "main": "index.js",
   "scripts": {
